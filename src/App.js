@@ -8,6 +8,7 @@ function App() {
       <ErrorBoundary>
         <Component2 />
       </ErrorBoundary>
+      <h1>Vara Prasad</h1>
     </>
   );
 }
