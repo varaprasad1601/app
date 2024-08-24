@@ -1,12 +1,13 @@
 import './App.css';
 import {Provider} from './Components/Context'
-import Post from './Components/Post';
+import Post from './Components/Component2';
+import Component2 from './Components/Component2';
 
 function App() {
   return (
     <>
       <Provider value='varaprasad'>
-        <Post />
+        <Component2 />
       </Provider>
     </>
   );
